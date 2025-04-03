@@ -1,0 +1,21 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+*.bak
+*.swp
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+
+# Environment variables files
+.env
+*.env
+

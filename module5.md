@@ -1,12 +1,6 @@
-# MongoDB Exercises with PyMongo
+# MongoDB Exercises and PyMongo
 
-## Installation of MongoDB
-To install MongoDB on your local machine, follow the instructions on the official MongoDB website: [MongoDB Installation Guide](https://docs.mongodb.com/manual/installation/)
-
-## Create a New Collection and Example Document
-After installing MongoDB, you can create a new collection and insert a document with nested fields. Below is an example of a document for an employee in a company, using Spanish names and other details:
-
-### Example Document
+### Example about nested arrays, dicts and a combination of both.
 ```json
 {
   "name": "Juan Pérez",
@@ -33,8 +27,6 @@ After installing MongoDB, you can create a new collection and insert a document 
   "skills": ["Python", "MongoDB", "Data Analysis"]
 }
 ```
-
-## PyMongo Queries
 
 ### 1. Find a Document by a Non-Nested Field Using $eq, $gt, or $lt
 

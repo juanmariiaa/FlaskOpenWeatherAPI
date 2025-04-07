@@ -5,6 +5,7 @@ class WeatherSchema(Schema):
     city_name = fields.Str(required=True)
     temperature = fields.Float(required=True)
     description = fields.Str(required=True)
+    timestamp = fields.Str(required=True)  # 👈 Solo como string
 
 class HistoricalWeatherSchema(Schema):
     city_ids = fields.Str(required=True)
